@@ -1,0 +1,244 @@
+.header{
+    background-color: royalblue;
+    padding-bottom: 10px;
+    padding-top: -40px;
+    width: 100%;
+  
+}
+.two{
+    background-color:white; 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin-top:10px;
+    height: 70px;
+}
+.two img{
+    width: 250px; 
+     height: 80px;
+       padding-left: 50px;
+      padding-top: 20px;  
+      margin-right: 20px;
+      margin-top: 20;
+      
+}
+.two ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+    margin-top: -250px;
+    max-width: 2000px;
+    min-width: 300px;
+}
+.two ul li{
+    width: 80px;
+    padding-top: 10px; 
+    padding-right: 20px;
+    padding-left: 20px;
+    cursor:pointer;
+-webkit-transition: color 0.9s;
+
+}
+.active, .two ul li:hover
+
+{
+	webkit-transition: color 1.9s;
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 25px;
+    height: 40px;
+} 
+.sub-menu-1{
+    display: none;
+width: 140px;
+}
+.two ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-1 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-1 ul li{
+     width: 170px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-1 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 30px;
+    }
+    
+.sub-menu-2{
+    display: none;
+width: 140px;
+}
+.two ul li:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-2 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-2 ul li{
+     width: 180px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-2 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 35px;
+    }
+
+
+    
+    
+.sub-menu-3{
+    display: none;
+width: 100px;
+}
+.two ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-3 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-3 ul li{
+     width: 150px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-3 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 30px;
+    }
+    
+.sub-menu-4{
+    display: none;
+width: 140px;
+}
+.two ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: left; 
+   
+}
+ .two ul li:hover .sub-menu-4 ul{
+    display: block;
+     margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    padding-left: 0px;  
+}
+.two ul li:hover .sub-menu-4 ul li{
+     width: 180px; 
+   
+    color: black;
+    background-color: white;
+    text-align: left; 
+}  
+.two ul li:hover .sub-menu-4 ul li:hover{
+    background-color:royalblue ;
+    color: white ;
+    border-radius: 0px;
+    height: 30px;
+    }
+
+/* 
+.carousel-item{
+    margin-top: auto;
+    
+    height: 800px;
+} */
+
+.marque{
+    width: 90%;
+    background-color: royalblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+     margin-left: 40px;
+    margin-right: 40px;  
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+
+}
+.intro{
+    padding-top: 70px;
+    background-color: whitesmoke;
+    padding-bottom: 70px;
+}
+.intro h1{
+   font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-bottom: 80px;
+}
+.intro p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 120px;
+    padding-left: 120px;
+    color: gray;
+    text-align: left;
+}
+.monthly{
+    background-color: royalblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.monthly table td{
+    /* position: center; */
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    padding-left: 85px;
+    padding-right: 85px;
+    
+
+}
+
+.monthly table td H4{
+    display: inline;
+}
+#carouselExampleControls{
+	margin-top:10px;
+}
